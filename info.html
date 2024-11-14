@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--Página para detallar información sobre la sociedad-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCR BIRTLH INFO </title>
+     <!--Importamos estilo desde archivo css-->
+     <link rel="stylesheet" href="Estilos/estilos.css">
+    
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li><a href="index.html"> INICIO</a></li>
+                
+            </ul>
+        </nav>
+        
+    </header>
+<!--Cabecera título de la web-->
+
+<br>
+<br>
+<br>
+<div style="text-align: center;">
+    <p><img src="imagenes/bannerIMG.jpg" alt="Imagen banner con título SCG BIRTLH"></p>    
+</div>
+<div class="container">
+    <h5>Contador Me gusta</h5>
+    <span id="valor">0</span>
+    <button onclick="contLike()" class="boton" id="bLike">ME GUSTA</button>
+</div>
+
+<article>
+    <p  ><h2 id="tituloInfo"  onclick="camColorInfo()" >SOBRE LA SOCIEDAD</h2></p>
+    
+    <div  class="info_text">
+        <p>La sociedad cultural gastronómica BIRTLH tiene como objetivo ser un lugar de ocio para todo el mundo. <br>
+        Creada en 2024 por un grupo de alumnos del centro de aprendizaje a distancia BIRTLH, cuenta actualmente con más
+        de 28 socios y socias. <br>
+        Es habitual utilizar el espacio para distintas celebraciones, ya sean de cumpleaños, como fechas importantes en el calendário. <br>
+        Entre los usos más destacados encontramos los listados en la siguiente tabla.
+            <table class="info_tabla">
+                <tr>
+                    <th colspan="1">ACTIVIDAD </th>
+                    <th colspan="1" >PORCENTAJE</th>
+                </tr>
+                <tr>
+                    <td>Comida</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td>Merienda</td>
+                    <td>10%</td>
+                <tr>
+                    <td>Cena</td>
+                    <td>35%</td>
+                </tr>
+                
+                </tr>
+                <tr>
+                    <td>Otros</td>
+                    <td>15%</td>
+                </tr>
+            </table>
+    </p>
+    </div>
+
+</article>
+<script src="funciones/funciones.js"></script><!--Llamada al fichero de funciones javascript-->
+</body>
+<footer>
+    &copy;MGaritaonandia_LMSGI02_TE01 <a href="https://www.birt.eus/" target="_blank" > Web BIRTLH </a>
+    <p>Fuente de las imágenes <a href="https://pixabay.com/es/images/search/gastronomia/"> Pyxabay.com</a></p>
+    
+</footer> 
+</html>

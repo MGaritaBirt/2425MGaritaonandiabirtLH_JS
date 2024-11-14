@@ -1,0 +1,170 @@
+header{
+    background: rgba(0, 0, 0, 7);
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+}
+nav{
+    float: left;
+}
+nav ul{
+    list-style: none;
+    overflow:hidden;
+}
+nav ul li{
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: rgb(118, 97, 236);
+}
+h1 {
+    color: blue;
+}
+
+p{
+    color: black;
+}
+h2 {
+    text-align: center ;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    width: 900px;
+    padding: 1em;
+    border: 1px solid green;
+    border-radius: 0em;
+    background-color: rgb(155, 218, 216);  
+}
+h3{
+    text-align: center;
+}
+.info_text{
+    text-align: center;
+    font-size: large;
+    
+}
+.descripcion{
+    font-size: xx-large;
+    background-color: antiquewhite;
+
+}
+form{
+    
+    margin: 0 auto;
+    width: 900px;
+    padding: 1em;
+    border: 1px solid green;
+    border-radius: 0em;
+    background-color: aquamarine;
+
+}
+.info{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 1em;
+    border: 1px solid green;
+    border-radius: 0em;
+    background-color: rgb(181, 152, 226);
+
+}
+.info_tabla{
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid blue;
+    background-color: lightblue;
+    padding-top: 1%;
+}
+.emcontacto{
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid green;
+    border-radius: 0em;
+    background-color: rgb(86, 228, 162);
+}
+form ul{
+    
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+form li{
+    
+    margin-top: 1em;
+    margin-left: 30%;
+}
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+form textarea{
+    vertical-align: top;
+    height: 5em;
+}
+table{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 800px;
+    padding: 1em;
+    table-layout: fixed;
+  
+}
+.tabla_cocina{
+    
+    text-align: center;    
+    font-size: 20px;
+    margin: 0 auto;
+    width: 800px;
+    padding: 1em;
+   
+    
+}
+.gastro{
+    text-align: center;
+}
+.img_cocina{
+    text-align: center;
+    width: 500;
+}
+.img_carne{
+    text-align: right;
+    width: 500;
+}.img_entrantes{
+    text-align: left;
+    width: 500;
+}
+thead{
+    border: 1px solid green;
+    border-radius: 0em;  
+    background-color: rgb(43, 246, 215);
+}
+tbody{
+    border: 1px solid green;
+    border-radius: 0em;  
+    background-color: rgb(132, 255, 237);
+}
+
+footer{
+    
+    text-align: left;
+    margin-top: 2%;
+    padding:1em;
+    background: fixed;
+    background-color: lavender;
+    text-decoration: none;
+    border: 2px solid purple;
+    border-radius: 1%;
+}
